@@ -35,3 +35,23 @@ a, a:link, a:visited {
 a:hover {
     color:darkgreen;
 }
+
+div{
+    padding: 0 10px;
+    width: 100%;
+}
+
+img{
+    display: block;
+    width:250px;
+    height:250px;
+    float:left;
+    padding:30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
