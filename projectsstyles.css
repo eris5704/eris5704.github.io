@@ -36,6 +36,8 @@ a:hover {
     color:darkgreen;
 }
 
+
+
 div{
     padding: 0 10px;
     width: 100%;
@@ -55,3 +57,6 @@ img{
     display: block;
 }
 
+h4{
+    text-align: center;
+}

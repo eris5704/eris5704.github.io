@@ -25,6 +25,7 @@ nav{
     margin: 20px;
 }
 
+
 a, a:link, a:visited {
     text-decoration: none;
     margin: 0 20px;
@@ -42,18 +43,16 @@ main{
     margin: 30px 0;
 }
 
-section{
-    width: 33.33%;
-    float: left;
-    padding: 0 20px;
+
+h3{
+    text-align:center;
+    margin: 40px;
 }
 
-aside{
-    width: 33.33%;
-    float: left;
-    padding: 0 20px;
+h4{
+    margin: 30px;
+    text-align:center;
 }
-
 
 
 img{

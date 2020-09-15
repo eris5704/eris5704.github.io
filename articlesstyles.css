@@ -73,6 +73,14 @@ aside{
     display:block;
 }
 
-.navi {
-    color:red;
+img{
+    display:block;
+    width: 75%;
+    height:auto;
+    margin: 0 auto;
+    
+}
+
+h4{
+    text-align:center;
 }
