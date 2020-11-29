@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #36454f;
 }
 
 html{
@@ -13,14 +14,23 @@ body{
     width: 80vw;
     margin: 0 auto;
     font-family: "Lucida Fax", serif;
+    color: white;
 }
 
 header{
     text-align: center;
     padding: 1rem 3rem;
+    color: #36454f;
+    background-color: #fbceb1;
+    border-bottom-color: white;
+    border-bottom-width: 20px;
 }
 
-nav{
+h1{
+    background-color: #fbceb1;
+}
+
+.navigation{
     text-align:center;
     margin: 20px;
 }
@@ -29,36 +39,143 @@ nav{
 a, a:link, a:visited {
     text-decoration: none;
     margin: 0 20px;
-    color: darkgrey;
+    color: white;
     text-transform: uppercase;
 }
 
 a:hover {
-    color:darkgreen;
+    color:darkgrey;
 }
 
 
 
-main{
-    margin: 30px 0;
+.front{
+    background-color: white;
+    padding-top:80px;
+    padding-bottom:80px;
 }
 
+.main-image{
+    display:block;
+    width: 75%;
+    height:auto;
+    margin: 0 auto;
+    background-color: darkgrey;
+    
+}
 
-h3{
-    text-align:center;
-    margin: 40px;
+.explanation{
+    border-width:thick;
+    background-color: darkgrey;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: right;
 }
 
 h4{
-    margin: 30px;
-    text-align:center;
+    margin: 30px 30px;
+    text-align:right;
+    color: #fbceb1 ;
+    padding:30px;
+    background-color: darkgrey;
+}
+
+/* Resume  page styles */
+
+
+iframe{
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
 }
 
 
-img{
+
+
+
+/* Project page styles */
+
+.projectimg{
+    display: block;
+    width:400px;
+    height:400px;
+    float:left;
+    padding:30px;
+    background-color:white;
+}
+
+
+.projects{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 40px;
+    background-color:white;
+}
+
+.projects::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.projtext{
+    text-align:left;
+    color: #36454f;
+    background-color: white;
+    padding: none;
+}
+
+.proj{
+    background-color:white;
+    color: darkgrey;
+    padding: 20px 20px;
+}
+
+button{
+    background-color:#fbceb1;
+    color:#36454f;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    position:center;
+}
+
+.button{
+    background-color: white;
+}
+
+
+/* Articles page styles */
+
+#pens{
     display:block;
     width: 75%;
     height:auto;
     margin: 0 auto;
     
+}
+
+section{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+}
+
+aside{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+}
+
+.clearfix{
+    padding: 50px;
+}
+
+.clearfix::after {
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.pens{
+    background-color: #36454f;
+
 }
