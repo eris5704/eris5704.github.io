@@ -94,11 +94,12 @@ iframe{
 
 .projectimg{
     display: block;
-    width:400px;
+    width:550px;
     height:400px;
     float:left;
     padding:30px;
     background-color:white;
+    position: relative;
 }
 
 
@@ -135,6 +136,7 @@ button{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     position:center;
 }
+
 
 .button{
     background-color: white;
